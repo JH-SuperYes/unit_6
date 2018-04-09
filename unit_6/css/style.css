@@ -1,0 +1,351 @@
+
+@import url(https://fonts.googleapis.com/css?family=Libre+Franklin:300, 900|Spectral:300,600,600i,EB+Garamond);
+*{margin:0; padding:0; box-sizing: border-box; }
+
+/*<style>
+  @import url("https://use.typekit.net/jls8ebw.css");
+</style>*/
+
+/* Styling for the Intro sequence starts here*/
+
+body {	
+	margin: 0px;
+	padding: 0px;
+	background-color: #000000;	
+	color: #dcdcdc;
+	
+}
+/*
+.mother-container {
+	
+	height: 100vh;
+	width: 100vw;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+*/
+
+.topnav-menu {
+	font-family: 'Libre Franklin', sans-serif;
+	font-weight: 900;
+	letter-spacing: .08em;
+	font-size: 0.8em;
+	line-height: 1;
+	margin-top: 0px;
+	height: 30px;
+	padding-left: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #000;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	/*width: 1000px;*/
+	border-bottom-style: solid;
+	border-width: 1px;
+	border-color: #dcdcdc;
+
+}
+.topnav-right{
+	font-size: 0.8em;
+	font-family: 'Spectral', serif;
+	font-weight: 600;
+	letter-spacing: .04em;
+	line-height: 1;
+	margin-top: 0px;
+	height: 30px;
+	padding-right: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #000;
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	text-align: right;    
+	line-height: 5em;
+	width: 20%;
+	/*width: 1000px;*/
+	border-bottom-style: solid;
+	border-width: 1px;
+	border-color: #dcdcdc;
+	
+}
+
+a {
+	text-decoration: none;
+	padding: 10px;
+	color: #dcdcdc;
+}
+
+.section{
+	width: 100%;
+	min-height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#intro-dreamyhand {
+
+	background-image: url('../intro-img/dreamy_hand-1200-optimized-1.png');			
+}
+#intro2-fireworks {
+
+	background-image: url('../intro-img/fireworks-1200.jpg');
+}	
+#intro3-merrygoround {
+	background-image: url('../intro-img/merry-go-round-1200.jpg');
+}
+#intro4-arcdetriomphe3 {
+	background-image: url('../intro-img/arc_de_triomphe_3-1200.jpg');
+}
+#intro5-voiepompidou {
+	background-image: url('../intro-img/voie_pompidou-1200.jpg');
+}
+#intro6-stalingrad {
+	background-image: url('../intro-img/stalingrad-1200.jpg');
+}
+#intro7-camera {
+	background-image: url('../intro-img/camera-1200.jpg');
+}
+#intro8-tourists {
+	background-image: url('../intro-img/tourists-1200.jpg');
+}
+#intro9-steustache {
+	background-image: url('../intro-img/st_eustache-1200.jpg');
+}
+#intro10-toureiffel {
+	background-image: url('../intro-img/tour_eiffel-1200.jpg');
+}
+#intro11-lasamaritaine {
+	background-image: url('../intro-img/la_samaritaine-1200.jpg');
+}
+
+.intro {
+	
+	font-family: 'Libre Franklin', sans-serif;
+	font-weight: 300;
+	letter-spacing: .05em;
+	font-size: 1.3em;
+	line-height: 1.8;
+	padding-top: 20%;
+	padding-left: 10%;
+	vertical-align: middle;
+			
+}
+.AuthRef {
+
+	font-size: 1em;
+	font-family: 'Spectral', serif;
+	font-weight: 300i;
+	letter-spacing: .02em;
+	text-align: left;    
+	line-height: 5em;
+	padding-left: 10%;
+
+}
+
+.footernav-comments {
+
+	font-family: 'Spectral', serif;
+	font-weight: 600;
+	letter-spacing: .02em;
+	font-size: 0.8em;
+	height: 30px;
+	padding-left: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 30px;
+	line-height: 1;
+	background-color: #000;
+	border-width: 1px;
+	border-color: #dcdcdc;
+	position: fixed;
+	bottom: 15px;
+	left: 0px;
+	border-color: #dcdcdc;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+
+}
+
+/* Styling for the Author Sequence (AuthSeq) Pages starts here */
+
+.AuthTitle {
+	
+	font-family: 'Spectral', serif;
+	font-weight: 300;
+	letter-spacing: .01em;
+	font-size: 50px;
+	line-height: 1;
+	padding-top: 375px;
+	text-align: center;
+	color: #fe0606;	
+	/*outline-style: solid;
+	outline-width: 1px;
+	outline-color: #dcdcdc;
+	min-height: 90vh;
+	min-width: 90vh;
+	width:90%;
+	height: 90%;*/
+		
+}
+
+.AuthTxtL {
+	
+	font-family: 'Garamond', serif;
+	font-weight: 400;
+	letter-spacing: .05em;
+	font-size: 1.2em;
+	line-height: 1;
+	width: 30em;
+	padding-top: 30%;
+	padding-left: 10%;
+	text-align: left;
+			
+}
+
+.AuthTxtR {
+	
+	font-family: 'Garamond', serif;
+	font-weight: 300;
+	letter-spacing: .05em;
+	font-size: 1.2em;
+	line-height: 1.2;
+	width: 30%;
+	padding-top: 10%;
+	text-align: right;
+
+			
+}
+
+.AuthTxtBLK{
+	
+	font-family: 'Garamond', serif;
+	color: #000000;
+	font-weight: 500;
+	letter-spacing: .05em;
+	font-size: 1.2em;
+	line-height: 1.2;
+	width: 30em;
+	padding-top: 30%;
+	padding-left: 10%;
+	text-align: left;
+}
+
+.AuthTxtLast {
+	
+	font-family: 'Garamond', serif;
+	font-weight: 300;
+	letter-spacing: .05em;
+	font-size: 1.2em;
+	line-height: 1.8;
+	padding-top: 30%;
+	text-align: center;
+			
+}
+
+/*author pages content starts here*/
+
+/*nimier*/
+
+#nimier-title {
+	background-image: url('../nimier-img/nimier_m_title-img-1200.jpg');
+}
+
+#nimier-firstact {
+	background-image: url('../nimier-img/nimier_m_firstact.png');
+}
+
+#nimier-newname {
+	background-image: url('../nimier-img/nimier_m_coffee_cup.png');
+}
+#nimier-king {
+	background-image: url('../nimier-img/nimier_m_kingofhearts.png');
+}
+#nimier-cards {
+	background-image: url('../nimier-img/nimier_m_cards-1200.png');
+}
+
+/*end author pages content*/
+
+/*About page styling starts here*/
+
+.article{
+
+	padding-top: 10%;
+	padding-left: 15%;
+	column-width: : 600px;
+	float:left;
+	display: inline-block;	
+
+}
+
+.aside{
+	column-width: 400px;
+	float: left; 
+
+
+}
+
+.AuthHdr {
+
+	font-family: 'Libre Franklin', sans-serif;
+	font-weight: 300;
+	letter-spacing: .05em;
+	font-size: 1.2em;
+	line-height: 1.8;
+	width: 600px;
+	
+
+}
+
+.AuthAbout{
+
+	font-family: 'Libre Franklin', sans-serif;
+	font-weight: 300;
+	letter-spacing: .05em;
+	font-size: 1em;
+	line-height: 1.8;
+	width: 500px;
+
+
+}
+
+.AuthList {
+	font-size: 1em;
+	font-family: 'Spectral', serif;
+	font-weight: 300i;
+	letter-spacing: .02em;
+	text-align: left;    
+	line-height: 1.8;
+	width: 600px;
+	padding-left: 15%;
+	list-style-type: none;
+	
+
+}
+
+.AuthImg {
+	width:400px;
+	border: 1,1,1,1px;
+	border-style: solid;
+	border-color:#dcdcdc;
+
+}
+
+
+
+
+#nimier-about{
+	 url('../about-img/nimier_m.jpg');
+}
+
+
+
+
+
+
+
